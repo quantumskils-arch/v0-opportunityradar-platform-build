@@ -1,4 +1,4 @@
-import { Suspense } from 'next'
+import { Suspense } from 'react'
 import { Metadata } from 'next'
 import { Briefcase, Filter, Building2 } from 'lucide-react'
 import { Navbar } from '@/components/navbar'
