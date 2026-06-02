@@ -19,8 +19,6 @@ const deadlineColors: Record<string, string> = {
     normal: 'bg-green-100 text-green-700',
     none: 'bg-gray-100 text-gray-500',
   }
-    none: 'bg-gray-100 text-gray-500',
-  } 
 
   return (
     <AnimatePresence>
@@ -110,10 +108,11 @@ export function OpportunityCard({ opportunity, index = 0 }: OpportunityCardProps
   const [showModal, setShowModal] = useState(false)
   const deadlineStatus = getDeadlineStatus(opportunity.deadline)
   const categoryStyle = CATEGORY_COLORS[opportunity.category] || { bg: 'bg-gray-100', text: 'text-gray-700' }
-  const deadlineColors = {
+ const deadlineColors: Record<string, string> = {
     urgent: 'bg-red-100 text-red-700',
     soon: 'bg-orange-100 text-orange-700',
     normal: 'bg-accent-green/10 text-accent-green',
+    none: 'bg-gray-100 text-gray-500',
   }
 
   return (
