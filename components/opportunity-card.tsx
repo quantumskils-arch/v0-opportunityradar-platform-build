@@ -18,6 +18,8 @@ function OpportunityModal({ opportunity, onClose }: { opportunity: Opportunity; 
     soon: 'bg-orange-100 text-orange-700',
     normal: 'bg-green-100 text-green-700',
     none: 'bg-gray-100 text-gray-500',
+  }
+    none: 'bg-gray-100 text-gray-500',
   } 
 
   return (
