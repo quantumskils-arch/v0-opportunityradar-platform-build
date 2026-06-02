@@ -197,3 +197,4 @@ export function OpportunityCardSkeleton() {
     </div>
   )
 }
+// fixed
