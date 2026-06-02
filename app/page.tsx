@@ -26,7 +26,7 @@ async function StatsBar() {
   
   const statItems = [
     { icon: TrendingUp, label: 'Total Opportunities', value: stats.total || '75+' },
-    { icon: Zap, label: 'Added Today', value: stats.addedToday || '12' },
+    { icon: Zap, label: 'Added Today', value: (stats as any).addedToday || '12' },
     { icon: Globe, label: 'Countries', value: stats.countries || 5 },
     { icon: Clock, label: 'Updates', value: 'Daily' },
   ]
