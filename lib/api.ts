@@ -13,6 +13,8 @@ export interface Opportunity {
   country: string
   source: string
   scraped_at: string
+  summary_json?: { summary: string; urgency_flag: string | null; key_requirements: string[]; whatsapp_teaser: string }
+  whatsapp_teaser?: string
 }
 
 export interface OpportunitiesResponse {

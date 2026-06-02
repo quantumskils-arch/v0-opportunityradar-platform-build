@@ -81,6 +81,15 @@ const deadlineColors: Record<string, string> = {
             </div>
           </div>
 
+          {opportunity.summary_json?.summary && (
+            <div className="rounded-xl bg-gray-50 p-4 text-sm text-gray-700 leading-relaxed">
+              <p className="font-medium text-gray-900 mb-1">Summary</p>
+              <p>{opportunity.summary_json.summary}</p>
+              {opportunity.summary_json.key_requirements?.length && (
+                <ul className="mt-2 space-y-1">{opportunity.summary_json.key_requirements.map((r,i) => <li key={i} className="flex gap-2"><span className="text-emerald-500">✓</span>{r}</li>)}</ul>
+              )}
+            </div>
+          )}
           {/* Divider */}
           <div className="my-5 border-t border-gray-100" />
 
