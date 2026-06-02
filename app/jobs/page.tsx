@@ -40,7 +40,6 @@ async function JobsGrid({ page, country }: { page: number; country?: string }) {
     if (country) params.set('country', country)
 
     const res = await fetch(
-      const res = await fetch(
       `http://187.77.117.32:4000/api/opportunities?${params}`,
       { cache: 'no-store' }
     )
