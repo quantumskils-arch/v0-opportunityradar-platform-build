@@ -1,6 +1,6 @@
 // API configuration and types for OpportunityRadar
 // Uses /proxy/* to avoid CORS issues — Vercel proxies to api.opportunityradar.africa
-export const API_BASE_URL = 'https://api.opportunityradar.africa'
+export const API_BASE_URL = http://187.77.117.32:4000
  // Server-side: direct call OK
 
 export interface Opportunity {
