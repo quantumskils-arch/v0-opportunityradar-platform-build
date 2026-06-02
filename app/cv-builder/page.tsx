@@ -76,7 +76,7 @@ export default function CVBuilderPage() {
   }
 
   const handleGenerateWithAI = () => {
-    setShowPayment(true)
+    setIsGenerated(true)
   }
 
   const handlePaymentSuccess = () => {
@@ -84,8 +84,31 @@ export default function CVBuilderPage() {
   }
 
   const handleDownload = () => {
-    // Simulate download
-    alert('CV downloaded successfully!')
+    const name = formData.fullName || 'Your Name'
+    const email = formData.email || 'email@example.com'
+    const phone = formData.phone || '+256 7XX XXX XXX'
+    const summary = formData.summary || 'Dedicated professional seeking new opportunities.'
+    // Use browser print as PDF fallback
+    const win = window.open('', '_blank')
+    if (!win) return
+    win.document.write('<html><head><title>CV - ' + name + '</title>')
+    win.document.write('<style>body{font-family:Arial,sans-serif;margin:40px;color:#222;}h1{font-size:22px;margin:0;}h2{font-size:14px;border-bottom:1px solid #ccc;padding-bottom:4px;margin-top:20px;text-transform:uppercase;letter-spacing:1px;}p,li{font-size:12px;line-height:1.6;}ul{padding-left:20px;}.contact{font-size:12px;color:#555;margin-top:4px;}.footer{text-align:center;font-size:10px;color:#aaa;margin-top:40px;}</style>')
+    win.document.write('</head><body>')
+    win.document.write('<h1>' + name + '</h1>')
+    win.document.write('<p class="contact">' + email + ' | ' + phone + ' | Kampala, Uganda</p>')
+    win.document.write('<h2>Professional Summary</h2><p>' + summary + '</p>')
+    win.document.write('<h2>Work Experience</h2>')
+    win.document.write('<p><strong>' + (formData.jobTitle || 'Job Title') + '</strong> — ' + (formData.employer || 'Organisation') + '</p>')
+    win.document.write('<p>' + (formData.startDate || '2022') + ' – Present</p>')
+    win.document.write('<ul><li>Key responsibility or achievement here</li><li>Another achievement here</li></ul>')
+    win.document.write('<h2>Education</h2>')
+    win.document.write('<p><strong>' + (formData.degree || 'Bachelor of Science') + '</strong> — ' + (formData.institution || 'University') + '</p>')
+    win.document.write('<h2>Skills</h2>')
+    win.document.write('<p>' + (formData.skills || 'Communication, Teamwork, Microsoft Office, Project Management') + '</p>')
+    win.document.write('<p class="footer">Generated free by OpportunityRadar.africa</p>')
+    win.document.write('</body></html>')
+    win.document.close()
+    setTimeout(() => win.print(), 500)
   }
 
   const nextStep = () => setCurrentStep(prev => Math.min(prev + 1, 5))
