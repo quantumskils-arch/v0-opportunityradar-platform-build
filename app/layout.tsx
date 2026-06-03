@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { DM_Sans, Syne } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import Script from 'next/script'
 import './globals.css'
 
 const dmSans = DM_Sans({ 
@@ -89,11 +90,9 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5416769098775933" crossorigin="anonymous"></script>
-</head>
-<html lang="en" className={`${dmSans.variable} ${syne.variable} bg-background`}>
+    <html lang="en" className={`${dmSans.variable} ${syne.variable} bg-background`}>
       <body className="font-sans antialiased min-h-screen">
+        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5416769098775933" crossOrigin="anonymous" strategy="afterInteractive"/>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
