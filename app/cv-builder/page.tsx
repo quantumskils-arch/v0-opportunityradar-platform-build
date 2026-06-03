@@ -84,10 +84,10 @@ export default function CVBuilderPage() {
   }
 
   const handleDownload = () => {
-    const name = formData.fullName || 'Your Name'
-    const email = formData.email || 'email@example.com'
-    const phone = formData.phone || '+256 7XX XXX XXX'
-    const summary = formData.summary || 'Dedicated professional seeking new opportunities.'
+    const name = (formData as any).fullName || 'Your Name'
+    const email = (formData as any).email || 'email@example.com'
+    const phone = (formData as any).phone || '+256 7XX XXX XXX'
+    const summary = (formData as any).summary || 'Dedicated professional seeking new opportunities.'
     // Use browser print as PDF fallback
     const win = window.open('', '_blank')
     if (!win) return
@@ -98,13 +98,13 @@ export default function CVBuilderPage() {
     win.document.write('<p class="contact">' + email + ' | ' + phone + ' | Kampala, Uganda</p>')
     win.document.write('<h2>Professional Summary</h2><p>' + summary + '</p>')
     win.document.write('<h2>Work Experience</h2>')
-    win.document.write('<p><strong>' + (formData.jobTitle || 'Job Title') + '</strong> — ' + (formData.employer || 'Organisation') + '</p>')
-    win.document.write('<p>' + (formData.startDate || '2022') + ' – Present</p>')
+    win.document.write('<p><strong>' + (( formData as any).jobTitle || 'Job Title') + '</strong> — ' + ((formData as any).employer || 'Organisation') + '</p>')
+    win.document.write('<p>' + (( formData as any).startDate || '2022') + ' – Present</p>')
     win.document.write('<ul><li>Key responsibility or achievement here</li><li>Another achievement here</li></ul>')
     win.document.write('<h2>Education</h2>')
-    win.document.write('<p><strong>' + (formData.degree || 'Bachelor of Science') + '</strong> — ' + (formData.institution || 'University') + '</p>')
+    win.document.write('<p><strong>' + ((formData as any).degree || 'Bachelor of Science') + '</strong> — ' + ((formData as any).institution || 'University') + '</p>')
     win.document.write('<h2>Skills</h2>')
-    win.document.write('<p>' + (formData.skills || 'Communication, Teamwork, Microsoft Office, Project Management') + '</p>')
+    win.document.write('<p>' + ((formData as any).skills || 'Communication, Teamwork, Microsoft Office, Project Management') + '</p>')
     win.document.write('<p class="footer">Generated free by OpportunityRadar.africa</p>')
     win.document.write('</body></html>')
     win.document.close()
@@ -209,7 +209,7 @@ export default function CVBuilderPage() {
                         <div>
                           <label className="mb-1 block text-sm font-medium text-navy">Full Name</label>
                           <Input
-                            value={formData.fullName}
+                            value={(formData as any).fullName}
                             onChange={(e) => updateFormData('fullName', e.target.value)}
                             placeholder="John Doe"
                           />
@@ -218,7 +218,7 @@ export default function CVBuilderPage() {
                           <label className="mb-1 block text-sm font-medium text-navy">Email</label>
                           <Input
                             type="email"
-                            value={formData.email}
+                            value={(formData as any).email}
                             onChange={(e) => updateFormData('email', e.target.value)}
                             placeholder="john@example.com"
                           />
@@ -226,7 +226,7 @@ export default function CVBuilderPage() {
                         <div>
                           <label className="mb-1 block text-sm font-medium text-navy">Phone</label>
                           <Input
-                            value={formData.phone}
+                            value={(formData as any).phone}
                             onChange={(e) => updateFormData('phone', e.target.value)}
                             placeholder="+256 7XX XXX XXX"
                           />
@@ -234,7 +234,7 @@ export default function CVBuilderPage() {
                         <div>
                           <label className="mb-1 block text-sm font-medium text-navy">Location</label>
                           <Input
-                            value={formData.location}
+                            value={(formData as any).location}
                             onChange={(e) => updateFormData('location', e.target.value)}
                             placeholder="Kampala, Uganda"
                           />
@@ -242,7 +242,7 @@ export default function CVBuilderPage() {
                         <div>
                           <label className="mb-1 block text-sm font-medium text-navy">Professional Summary</label>
                           <textarea
-                            value={formData.summary}
+                            value={(formData as any).summary}
                             onChange={(e) => updateFormData('summary', e.target.value)}
                             placeholder="Brief overview of your experience and goals..."
                             className="h-24 w-full rounded-card border border-border-color p-3 text-navy placeholder:text-muted-text focus:outline-none focus:ring-2 focus:ring-accent-green"
@@ -256,7 +256,7 @@ export default function CVBuilderPage() {
                         <div>
                           <label className="mb-1 block text-sm font-medium text-navy">University/Institution</label>
                           <Input
-                            value={formData.university}
+                            value={(formData as any).university}
                             onChange={(e) => updateFormData('university', e.target.value)}
                             placeholder="Makerere University"
                           />
@@ -264,7 +264,7 @@ export default function CVBuilderPage() {
                         <div>
                           <label className="mb-1 block text-sm font-medium text-navy">Degree/Qualification</label>
                           <Input
-                            value={formData.degree}
+                            value={(formData as any).degree}
                             onChange={(e) => updateFormData('degree', e.target.value)}
                             placeholder="Bachelor of Commerce"
                           />
@@ -272,7 +272,7 @@ export default function CVBuilderPage() {
                         <div>
                           <label className="mb-1 block text-sm font-medium text-navy">Graduation Year</label>
                           <Input
-                            value={formData.graduationYear}
+                            value={(formData as any).graduationYear}
                             onChange={(e) => updateFormData('graduationYear', e.target.value)}
                             placeholder="2023"
                           />
@@ -285,7 +285,7 @@ export default function CVBuilderPage() {
                         <div>
                           <label className="mb-1 block text-sm font-medium text-navy">Company/Organization</label>
                           <Input
-                            value={formData.company}
+                            value={(formData as any).company}
                             onChange={(e) => updateFormData('company', e.target.value)}
                             placeholder="UNHCR Uganda"
                           />
@@ -293,7 +293,7 @@ export default function CVBuilderPage() {
                         <div>
                           <label className="mb-1 block text-sm font-medium text-navy">Position</label>
                           <Input
-                            value={formData.position}
+                            value={(formData as any).position}
                             onChange={(e) => updateFormData('position', e.target.value)}
                             placeholder="Program Assistant"
                           />
@@ -301,7 +301,7 @@ export default function CVBuilderPage() {
                         <div>
                           <label className="mb-1 block text-sm font-medium text-navy">Duration</label>
                           <Input
-                            value={formData.duration}
+                            value={(formData as any).duration}
                             onChange={(e) => updateFormData('duration', e.target.value)}
                             placeholder="Jan 2022 - Present"
                           />
@@ -309,7 +309,7 @@ export default function CVBuilderPage() {
                         <div>
                           <label className="mb-1 block text-sm font-medium text-navy">Key Responsibilities</label>
                           <textarea
-                            value={formData.description}
+                            value={(formData as any).description}
                             onChange={(e) => updateFormData('description', e.target.value)}
                             placeholder="Describe your key achievements and responsibilities..."
                             className="h-24 w-full rounded-card border border-border-color p-3 text-navy placeholder:text-muted-text focus:outline-none focus:ring-2 focus:ring-accent-green"
@@ -323,7 +323,7 @@ export default function CVBuilderPage() {
                         <div>
                           <label className="mb-1 block text-sm font-medium text-navy">Technical Skills</label>
                           <textarea
-                            value={formData.skills}
+                            value={(formData as any).skills}
                             onChange={(e) => updateFormData('skills', e.target.value)}
                             placeholder="Microsoft Office, Data Analysis, Project Management..."
                             className="h-20 w-full rounded-card border border-border-color p-3 text-navy placeholder:text-muted-text focus:outline-none focus:ring-2 focus:ring-accent-green"
@@ -332,7 +332,7 @@ export default function CVBuilderPage() {
                         <div>
                           <label className="mb-1 block text-sm font-medium text-navy">Languages</label>
                           <Input
-                            value={formData.languages}
+                            value={(formData as any).languages}
                             onChange={(e) => updateFormData('languages', e.target.value)}
                             placeholder="English (Fluent), Swahili (Native)"
                           />
@@ -340,7 +340,7 @@ export default function CVBuilderPage() {
                         <div>
                           <label className="mb-1 block text-sm font-medium text-navy">Certifications</label>
                           <textarea
-                            value={formData.certifications}
+                            value={(formData as any).certifications}
                             onChange={(e) => updateFormData('certifications', e.target.value)}
                             placeholder="List any relevant certifications..."
                             className="h-20 w-full rounded-card border border-border-color p-3 text-navy placeholder:text-muted-text focus:outline-none focus:ring-2 focus:ring-accent-green"
@@ -413,44 +413,44 @@ export default function CVBuilderPage() {
                 <div className="aspect-[8.5/11] rounded-lg border border-border-color bg-white p-6">
                   <div className="border-b border-border-color pb-4">
                     <h4 className="font-display text-xl font-bold text-navy">
-                      {formData.fullName || 'Your Name'}
+                      {(formData as any).fullName || 'Your Name'}
                     </h4>
                     <p className="mt-1 text-sm text-muted-text">
-                      {formData.email || 'email@example.com'} | {formData.phone || '+256 XXX XXX XXX'}
+                      {(formData as any).email || 'email@example.com'} | {(formData as any).phone || '+256 XXX XXX XXX'}
                     </p>
-                    <p className="text-sm text-muted-text">{formData.location || 'Location'}</p>
+                    <p className="text-sm text-muted-text">{(formData as any).location || 'Location'}</p>
                   </div>
 
-                  {formData.summary && (
+                  {(formData as any).summary && (
                     <div className="mt-4">
                       <h5 className="text-xs font-semibold uppercase text-navy">Summary</h5>
-                      <p className="mt-1 text-xs text-muted-text">{formData.summary}</p>
+                      <p className="mt-1 text-xs text-muted-text">{(formData as any).summary}</p>
                     </div>
                   )}
 
-                  {formData.university && (
+                  {(formData as any).university && (
                     <div className="mt-4">
                       <h5 className="text-xs font-semibold uppercase text-navy">Education</h5>
-                      <p className="mt-1 text-xs font-medium text-navy">{formData.degree}</p>
-                      <p className="text-xs text-muted-text">{formData.university} - {formData.graduationYear}</p>
+                      <p className="mt-1 text-xs font-medium text-navy">{(formData as any).degree}</p>
+                      <p className="text-xs text-muted-text">{(formData as any).university} - {(formData as any).graduationYear}</p>
                     </div>
                   )}
 
-                  {formData.company && (
+                  {(formData as any).company && (
                     <div className="mt-4">
                       <h5 className="text-xs font-semibold uppercase text-navy">Experience</h5>
-                      <p className="mt-1 text-xs font-medium text-navy">{formData.position}</p>
-                      <p className="text-xs text-muted-text">{formData.company} | {formData.duration}</p>
-                      {formData.description && (
-                        <p className="mt-1 text-xs text-muted-text">{formData.description}</p>
+                      <p className="mt-1 text-xs font-medium text-navy">{(formData as any).position}</p>
+                      <p className="text-xs text-muted-text">{(formData as any).company} | {(formData as any).duration}</p>
+                      {(formData as any).description && (
+                        <p className="mt-1 text-xs text-muted-text">{(formData as any).description}</p>
                       )}
                     </div>
                   )}
 
-                  {formData.skills && (
+                  {(formData as any).skills && (
                     <div className="mt-4">
                       <h5 className="text-xs font-semibold uppercase text-navy">Skills</h5>
-                      <p className="mt-1 text-xs text-muted-text">{formData.skills}</p>
+                      <p className="mt-1 text-xs text-muted-text">{(formData as any).skills}</p>
                     </div>
                   )}
                 </div>
