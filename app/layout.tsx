@@ -89,7 +89,10 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${dmSans.variable} ${syne.variable} bg-background`}>
+    <head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5416769098775933" crossorigin="anonymous"></script>
+</head>
+<html lang="en" className={`${dmSans.variable} ${syne.variable} bg-background`}>
       <body className="font-sans antialiased min-h-screen">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
