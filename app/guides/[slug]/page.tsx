@@ -124,6 +124,452 @@ A winning bid includes:
 5. Poor proposal formatting
     `,
   },
+
+  'unra-graduate-trainee-guide': {
+    title: 'How to Apply for UNRA Graduate Trainee Program',
+    category: 'Jobs',
+    readTime: 6,
+    content: `
+## Introduction
+
+The Uganda National Roads Authority (UNRA) Graduate Trainee Program is one of the most competitive and rewarding entry-level opportunities for fresh graduates in Uganda. It offers hands-on experience in infrastructure development and a clear path to permanent employment.
+
+## Eligibility Requirements
+
+To qualify for the UNRA Graduate Trainee Program you must:
+- Hold a Bachelor's degree (Second Class Upper or First Class) from a recognized university
+- Have graduated within the last two years
+- Be a Ugandan citizen aged 25 years or below
+- Have no prior formal employment experience
+
+## Popular Disciplines Recruited
+
+UNRA typically recruits graduates in:
+- Civil Engineering
+- Electrical Engineering
+- Procurement and Supply Chain Management
+- Finance and Accounting
+- Information Technology
+- Human Resource Management
+- Environmental Science
+
+## Step 1: Monitor the UNRA Website
+
+UNRA advertises trainee positions on their official website and in national newspapers. Subscribe to OpportunityRadar to get instant alerts when UNRA posts new opportunities.
+
+## Step 2: Prepare Your Application Package
+
+Gather these documents before the deadline:
+- Certified copies of academic transcripts
+- Certified copy of your degree certificate
+- National ID copy
+- Passport photo
+- Updated CV (maximum 3 pages)
+- Cover letter addressed to the Executive Director
+
+## Step 3: Write a Strong Cover Letter
+
+Your cover letter should:
+- State the specific discipline you are applying for
+- Highlight your most relevant academic achievements
+- Show knowledge of UNRA's mandate and projects
+- Demonstrate enthusiasm for infrastructure development
+
+## Step 4: Submit Your Application
+
+Applications are typically submitted online through the UNRA recruitment portal or via email. Follow instructions exactly — late or incomplete applications are automatically disqualified.
+
+## Step 5: Prepare for the Selection Process
+
+The selection process usually includes:
+- Written aptitude test
+- Technical interview
+- HR interview
+- Medical examination
+
+## Tips for Success
+
+1. **Academic excellence matters** — A strong GPA significantly improves your chances
+2. **Know UNRA's projects** — Research current road projects like the Kampala-Jinja Expressway
+3. **Practice aptitude tests** — Numerical and verbal reasoning are commonly tested
+4. **Dress professionally** — First impressions count at interviews
+5. **Follow up** — A polite follow-up email after interview shows initiative
+    `,
+  },
+  'top-10-ngo-jobs-uganda': {
+    title: 'Top 10 NGO Jobs Uganda - How to Get Hired',
+    category: 'Jobs',
+    readTime: 10,
+    content: `
+## Introduction
+
+Uganda hosts hundreds of international NGOs making it one of East Africa's most active humanitarian job markets. Landing an NGO job can transform your career — offering competitive salaries, international exposure, and meaningful work.
+
+## The Top NGOs Hiring in Uganda
+
+### 1. UNHCR (UN Refugee Agency)
+Focuses on refugee protection and assistance. Uganda hosts over 1.5 million refugees making UNHCR one of the largest employers.
+
+### 2. UNICEF Uganda
+Works on child protection, education, nutrition, and WASH programs. Regularly hires programme officers, supply specialists, and communication staff.
+
+### 3. World Food Programme (WFP)
+Manages food assistance and logistics for vulnerable populations. Strong demand for supply chain, logistics, and nutrition professionals.
+
+### 4. International Rescue Committee (IRC)
+Implements health, protection, and economic recovery programs. Hires heavily in northern Uganda and refugee-hosting districts.
+
+### 5. Save the Children
+Focuses on child rights, education, and health. One of the most active NGOs in Uganda with regular recruitment.
+
+### 6. Mercy Corps
+Works on resilience, food security, and market systems. Strong presence in Karamoja and northern regions.
+
+### 7. Médecins Sans Frontières (MSF)
+Hires medical professionals, logisticians, and finance staff for emergency health programs.
+
+### 8. Catholic Relief Services (CRS)
+Implements agriculture, WASH, and emergency response programs across Uganda.
+
+### 9. Plan International
+Focuses on girls' rights, education, and child protection. Headquartered in Kampala with field offices nationwide.
+
+### 10. Action Against Hunger (ACF)
+Specializes in nutrition and WASH programs. Actively recruits field-level staff.
+
+## How to Get Hired
+
+### Build the Right Skills
+Most NGOs look for:
+- Programme management experience
+- Monitoring and Evaluation (M&E) skills
+- Report writing ability
+- Community mobilization experience
+- Proficiency in MS Office and data tools
+
+### Where to Find NGO Jobs
+- ReliefWeb (reliefweb.int) — the global standard
+- NGO Jobs in Africa (ngojobsinafrica.com)
+- OpportunityRadar — aggregates all East African NGO jobs
+- Individual NGO websites
+- LinkedIn
+
+### Craft an NGO-Specific CV
+Your CV should highlight:
+- Impact metrics ("trained 200 farmers", "reached 5,000 beneficiaries")
+- Donor experience (USAID, DFID, EU, UN agencies)
+- Field experience in challenging environments
+- Language skills (especially French for francophone coverage)
+
+### Network Actively
+- Attend NGO coordination meetings (Kampala has active clusters)
+- Join professional groups on LinkedIn
+- Connect with HR managers at NGO forums
+
+## Common Interview Questions
+
+1. Why do you want to work for this NGO specifically?
+2. Describe a time you worked in a challenging field environment
+3. How do you handle community resistance?
+4. What is your experience with donor reporting?
+5. How do you prioritize competing deadlines?
+
+## Salary Ranges in Uganda NGO Sector
+
+- Entry level (Programme Assistant): UGX 2M–4M/month
+- Mid-level (Programme Officer): UGX 4M–8M/month
+- Senior level (Programme Manager): UGX 8M–15M/month
+- Country Director level: UGX 20M+/month
+    `,
+  },
+  'kcca-jobs-application-guide': {
+    title: 'KCCA Jobs: Complete Application Guide',
+    category: 'Jobs',
+    readTime: 7,
+    content: `
+## Introduction
+
+The Kampala Capital City Authority (KCCA) is one of Uganda's largest public employers. Managing Uganda's capital city, KCCA offers stable employment, good benefits, and opportunities to directly improve Kampala's urban development.
+
+## About KCCA
+
+KCCA was established in 2011 under the KCCA Act to manage Kampala City. It employs thousands of staff across departments including:
+- Engineering and Technical Services
+- Public Health and Environment
+- Revenue Collection
+- Education and Social Services
+- Urban Planning
+- Information and Communication Technology
+
+## Types of KCCA Jobs
+
+### Permanent and Pensionable Posts
+Core government positions with full benefits, pension, and job security. Competitive and highly sought after.
+
+### Contract Posts
+Fixed-term positions typically ranging from 1-3 years. Often renewable based on performance.
+
+### Consultancy Opportunities
+Short-term technical assignments for specialized skills.
+
+## How to Apply for KCCA Jobs
+
+### Step 1: Find the Vacancy
+KCCA advertises vacancies through:
+- The KCCA official website (kcca.go.ug)
+- New Vision newspaper
+- Daily Monitor newspaper
+- OpportunityRadar daily digest
+
+### Step 2: Check Minimum Qualifications
+Each post has specific requirements. Common requirements include:
+- Relevant university degree
+- Professional qualifications where applicable
+- Years of relevant experience
+- Computer literacy
+
+### Step 3: Prepare Your Application
+
+Your application must include:
+- Filled application form (download from KCCA website)
+- Detailed CV
+- Certified copies of academic certificates
+- Certified copy of National ID
+- Two passport photos
+- Contact details of three referees
+
+### Step 4: Submit Before the Deadline
+
+Applications can be submitted:
+- Online through the KCCA recruitment portal
+- Physical delivery to KCCA headquarters, City Hall, Kampala
+
+### Step 5: The Selection Process
+
+KCCA's recruitment process typically involves:
+- Application screening
+- Written examination
+- Oral interview
+- Medical examination
+- Background verification
+
+## Tips for Success
+
+1. **Submit complete applications** — Missing documents cause automatic disqualification
+2. **Use the official form** — KCCA requires their specific application form
+3. **Certify all documents** — Photocopies must be certified by a Commissioner for Oaths
+4. **Meet deadlines strictly** — Late applications are never accepted
+5. **Research KCCA's strategic plan** — Show you understand their urban development agenda
+
+## Key Departments to Target
+
+If you have an engineering background, target the Directorate of Engineering and Technical Services. Finance professionals should look at the Directorate of Revenue Collection. Urban planners fit well in the Physical Planning department.
+    `,
+  },
+  'bid-writing-uganda-tenders': {
+    title: 'How to Write a Winning Bid for Uganda Government Tenders',
+    category: 'Tenders',
+    readTime: 15,
+    content: `
+## Introduction
+
+Winning government tenders in Uganda requires more than just competitive pricing. Evaluators look for technically sound, well-structured bids that demonstrate capacity, compliance, and value for money. This guide covers everything you need to write bids that win.
+
+## Understanding How Bids Are Evaluated
+
+Uganda's PPDA framework uses a scoring system that typically combines:
+- Technical score (60-80% weight)
+- Financial score (20-40% weight)
+
+Understanding this split is critical — many bidders lose by focusing only on price.
+
+## The Two Main Components of a Bid
+
+### 1. Technical Proposal
+Demonstrates your capability to deliver the contract. This is where most contracts are won or lost.
+
+### 2. Financial Proposal
+Your price for delivering the goods or services. Must be competitive but also realistic.
+
+## Writing a Winning Technical Proposal
+
+### Company Profile Section
+- Company registration and history
+- Core business areas
+- Key personnel and their qualifications
+- Previous similar contracts (with values and client contacts)
+- Equipment and facilities
+
+### Understanding of the Assignment
+Show you have read the Terms of Reference (ToR) carefully:
+- Restate the objectives in your own words
+- Identify key challenges and how you will address them
+- Show local knowledge and context
+
+### Methodology
+This is the most important section:
+- Describe your approach step by step
+- Include a detailed work plan with timeline
+- Assign specific team members to specific tasks
+- Show how you will ensure quality
+
+### Team Qualifications
+For each key person include:
+- Detailed CV highlighting relevant experience
+- Academic and professional certificates
+- Specific role in this assignment
+
+## Writing a Competitive Financial Proposal
+
+### Price Your Bid Carefully
+- Research market rates for similar contracts
+- Include all costs (staff, equipment, transport, overheads, profit)
+- Never submit a price you cannot deliver on
+
+### Common Financial Proposal Sections
+- Personnel costs (daily rates x days)
+- Travel and transport
+- Equipment and materials
+- Overhead and administration (typically 10-15%)
+- Contingency (typically 5%)
+- VAT (18% in Uganda)
+
+## Compliance Checklist
+
+Before submitting verify you have:
+- Valid URSB registration certificate
+- Valid URA tax clearance certificate
+- Valid NSSF clearance
+- Bid security (if required)
+- All forms signed and stamped
+- Correct number of copies
+
+## Common Reasons Bids Are Rejected
+
+1. Missing or expired compliance documents
+2. Bid submitted after deadline
+3. Wrong format or missing sections
+4. Unrealistic pricing (too low or too high)
+5. Insufficient evidence of past experience
+6. Poor quality writing and presentation
+
+## Professional Bid Writing Tips
+
+1. **Start early** — Give yourself at least 2 weeks for complex bids
+2. **Read the ToR three times** — Understand exactly what is required
+3. **Use the evaluation criteria** — Structure your bid around scoring criteria
+4. **Quantify everything** — Numbers are more convincing than words
+5. **Proofread carefully** — Spelling errors undermine credibility
+6. **Use professional formatting** — Clear headings, consistent fonts, page numbers
+
+## Getting Help with Bid Writing
+
+OpportunityRadar offers professional bid writing services starting at UGX 500,000 per bid. Our team has helped clients win contracts worth billions of shillings. Contact us at opportunityradar.africa to discuss your needs.
+    `,
+  },
+  'uganda-public-service-commission': {
+    title: 'Uganda Public Service Commission: How It Works',
+    category: 'Jobs',
+    readTime: 8,
+    content: `
+## Introduction
+
+The Uganda Public Service Commission (UPSC) is the constitutional body responsible for recruiting, confirming, and managing senior public servants in Uganda. Understanding how UPSC works is essential for anyone seeking a government career.
+
+## What is the UPSC?
+
+Established under Article 165 of the Uganda Constitution, the UPSC manages recruitment for:
+- Central government ministries and departments
+- Constitutional commissions
+- Other public service bodies
+
+Note: Local government recruitment is handled by District Service Commissions (DSCs), not the UPSC.
+
+## Types of Positions Recruited by UPSC
+
+### Professional and Technical Posts
+Engineers, doctors, lawyers, accountants, and other professionals in government ministries.
+
+### Administrative Posts
+Permanent Secretaries, Under Secretaries, Assistant Secretaries, and administrative officers.
+
+### Specialized Roles
+ICT officers, statisticians, scientists, and other specialized government roles.
+
+## How the UPSC Recruitment Process Works
+
+### Step 1: Advertisement
+UPSC publishes vacancies in:
+- The Uganda Gazette (official government publication)
+- New Vision and Daily Monitor newspapers
+- The UPSC official website (psc.go.ug)
+- OpportunityRadar aggregates these for easy access
+
+### Step 2: Application Submission
+
+Applications are submitted to:
+**The Secretary**
+Public Service Commission
+Workers House, 3rd Floor
+P.O. Box 3145, Kampala
+
+Or online through the UPSC portal when available.
+
+### Step 3: Shortlisting
+
+UPSC reviews all applications against minimum qualifications. Only candidates meeting all requirements are shortlisted.
+
+### Step 4: Written Examination
+
+For many posts, shortlisted candidates sit a written examination testing:
+- Professional knowledge
+- General knowledge
+- English language proficiency
+- Analytical reasoning
+
+### Step 5: Oral Interview
+
+Candidates who pass written exams are invited for panel interviews conducted by UPSC commissioners and technical experts.
+
+### Step 6: Appointment
+
+Successful candidates receive appointment letters and are confirmed in post after a probationary period (usually 6 months to 1 year).
+
+## Required Documents for UPSC Applications
+
+- Certified copies of academic certificates and transcripts
+- Professional membership certificates where applicable
+- National ID certified copy
+- Two recent passport photos
+- Detailed CV
+- Names and contacts of three referees
+
+## Salary Scales in Public Service
+
+Uganda's public service uses standardized pay scales:
+- U1 (Permanent Secretary level): Highest
+- U2-U4: Senior management
+- U5-U7: Professional and technical
+- U8 (Entry level): Starting point for most graduates
+
+## Tips for UPSC Success
+
+1. **Check minimum qualifications carefully** — Applying for posts you don't qualify for wastes everyone's time
+2. **Certify all documents** — A Commissioner for Oaths must certify all copies
+3. **Apply for the right scale** — Match your qualifications to the advertised scale
+4. **Prepare for written exams** — Past papers are invaluable preparation
+5. **Be patient** — UPSC processes can take 3-6 months from application to appointment
+6. **Follow up professionally** — You can inquire about application status after 3 months
+
+## Common Mistakes to Avoid
+
+- Submitting uncertified documents
+- Missing the application deadline
+- Applying for posts you are overqualified for
+- Not including all required documents
+- Providing wrong contact information
+    `,
+  },
   'mastercard-foundation-scholarship': {
     title: 'Mastercard Foundation Scholarship: Complete Guide',
     category: 'Scholarships',
