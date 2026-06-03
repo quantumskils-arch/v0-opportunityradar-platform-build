@@ -17,6 +17,12 @@ const syne = Syne({
 })
 
 export const metadata: Metadata = {
+  verification: {
+    google: 'ca-pub-5416769098775933',
+  },
+  other: {
+    'google-adsense-account': 'ca-pub-5416769098775933',
+  },
   title: {
     default: 'OpportunityRadar - East Africa\'s Opportunity Intelligence Platform',
     template: '%s | OpportunityRadar'
