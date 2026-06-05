@@ -15,7 +15,7 @@ export function EmailSignup() {
     setStatus('loading')
 
     try {
-      const response = await fetch('http://187.77.117.32:4000/subscribe', {
+      const response = await fetch('https://api.opportunityradar.africa/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email }),
