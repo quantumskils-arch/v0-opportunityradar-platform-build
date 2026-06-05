@@ -116,7 +116,7 @@ export default async function JobsPage({ searchParams }: PageProps) {
                 <p className="mt-1 text-white/70">Careers in international development across East Africa</p>
               </div>
             </div>
-            <Link href="https://wa.me/256778030847?text=I%20want%20to%20post%20a%20job%20on%20OpportunityRadar" target="_blank">
+            <Link href="https://wa.me/256748556140?text=I%20want%20to%20post%20a%20job%20on%20OpportunityRadar" target="_blank">
               <Button className="bg-accent-green text-white hover:bg-accent-green/90">
                 <Building2 className="mr-2 h-4 w-4" />
                 Post a Job

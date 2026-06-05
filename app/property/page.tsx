@@ -263,7 +263,7 @@ export default function PropertyPage() {
                         )}
                       </div>
                       <a
-                        href={`https://wa.me/256778030847?text=Hi,%20I'm%20interested%20in:%20${encodeURIComponent(listing.title)}`}
+                        href={`https://wa.me/256748556140?text=Hi,%20I'm%20interested%20in:%20${encodeURIComponent(listing.title)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-1 rounded-card bg-[#25D366] px-3 py-2 text-sm font-medium text-white hover:bg-[#25D366]/90"

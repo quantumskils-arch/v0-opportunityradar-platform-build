@@ -797,7 +797,7 @@ export default async function GuidePage({ params }: PageProps) {
                   Share:
                 </span>
                 <a
-                  href={`https://wa.me/?text=${encodeURIComponent(guide.title + ' ' + shareUrl)}`}
+                  href={`https://wa.me/256748556140?text=${encodeURIComponent(guide.title + ' ' + shareUrl)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-full bg-[#25D366] p-2 text-white hover:bg-[#25D366]/90"

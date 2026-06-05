@@ -50,7 +50,7 @@ export function Footer() {
             </p>
             <div className="mt-6 flex gap-4">
               <a
-                href="https://wa.me/256778030847"
+                href="https://wa.me/256748556140"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/60 transition-colors hover:text-accent-green"

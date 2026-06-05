@@ -84,7 +84,7 @@ export default function AlertsPage() {
             Join our WhatsApp channel for instant notifications
           </p>
           <a
-            href="https://wa.me/256778030847?text=Hi%20OpportunityRadar%2C%20I%20want%20daily%20alerts"
+            href="https://wa.me/256748556140?text=Hi%20OpportunityRadar%2C%20I%20want%20daily%20alerts"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 inline-flex items-center gap-2 rounded-card bg-[#25D366] px-6 py-3 font-semibold text-white transition-colors hover:bg-[#25D366]/90"
