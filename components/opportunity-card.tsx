@@ -103,10 +103,16 @@ const deadlineColors: Record<string, string> = {
 
           {/* Apply Button */}
           
-           <a href={opportunity.url} target="_blank" rel="noopener noreferrer" className="flex w-full items-center justify-center gap-2 rounded-xl bg-emerald-500 px-6 py-3 text-sm font-bold text-white transition hover:bg-emerald-600 active:scale-95">
-            Apply Now
-            <ExternalLink className="h-4 w-4" />
-          </a> 
+           {opportunity.url ? (
+            <a href={opportunity.url} target="_blank" rel="noopener noreferrer" className="flex w-full items-center justify-center gap-2 rounded-xl bg-emerald-500 px-6 py-3 text-sm font-bold text-white transition hover:bg-emerald-600 active:scale-95">
+              Apply Now
+              <ExternalLink className="h-4 w-4" />
+            </a>
+          ) : (
+            <span className="flex w-full items-center justify-center gap-2 rounded-xl bg-gray-300 px-6 py-3 text-sm font-bold text-gray-500">
+              Link unavailable
+            </span>
+          )}
         </motion.div>
       </motion.div>
     </AnimatePresence>
