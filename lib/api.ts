@@ -8,7 +8,7 @@ export interface Opportunity {
   title: string
   organization: string
   deadline: string
-  link: string
+  url: string
   category: 'Government Tender' | 'Grant/Scholarship' | 'Job'
   country: string
   source: string
