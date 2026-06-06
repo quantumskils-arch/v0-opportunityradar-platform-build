@@ -145,11 +145,7 @@ export default async function HomePage({ searchParams }: PageProps) {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
-              <Link href="/alerts">
-                <Button size="lg" variant="outline" className="border-white/30 bg-transparent text-white hover:bg-white/10">
-                  Get Free Alerts
-                </Button>
-              </Link>
+              <a href="https://wa.me/256748556140?text=HI" target="_blank" rel="noopener noreferrer"><Button size="lg" variant="outline" className="border-white/30 bg-transparent text-white hover:bg-white/10">Start on WhatsApp</Button></a>
             </div>
           </div>
         </div>
