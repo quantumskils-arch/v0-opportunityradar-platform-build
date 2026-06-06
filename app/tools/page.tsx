@@ -11,7 +11,7 @@ const tools = [
   { id: 'land-agreement', title: 'Land Agreement Generator', description: 'Generate a legal land sale agreement template', icon: FileText, color: 'bg-blue-500' },
   { id: 'tenancy-agreement', title: 'Tenancy Agreement Generator', description: 'Create a standard Uganda tenancy agreement', icon: FileText, color: 'bg-accent-green' },
   { id: 'salary-calculator', title: 'Salary Calculator', description: 'Calculate PAYE tax, NSSF, and net take-home', icon: Calculator, color: 'bg-amber' },
-  { id: 'cv-templates', title: 'Free CV Templates', description: '4 professional CV templates for download', icon: Download, color: 'bg-navy' },
+  { id: 'cv-templates', title: 'Free CV Templates', description: '5 professional CV templates for download', icon: Download, color: 'bg-navy' },
 ]
 
 function LandAgreementTool() {
@@ -110,39 +110,26 @@ function SalaryCalculatorTool() {
 }
 
 function CVTemplatesTool() {
-  const downloadCV = (type: string) => {
-    const doc = new jsPDF()
-    doc.setFontSize(20)
-    doc.text('CURRICULUM VITAE', 105, 25, { align: 'center' })
-    doc.setFontSize(12)
-    doc.text(`${type} Template`, 105, 35, { align: 'center' })
-    doc.setFontSize(11)
-    doc.text('Full Name: _________________________________', 20, 55)
-    doc.text('Email: ____________________________________', 20, 68)
-    doc.text('Phone: ____________________________________', 20, 81)
-    doc.text('EDUCATION', 20, 100)
-    doc.line(20, 103, 190, 103)
-    doc.text('Degree / Institution / Year: ________________', 20, 112)
-    doc.text('WORK EXPERIENCE', 20, 130)
-    doc.line(20, 133, 190, 133)
-    doc.text('Position / Organisation / Duration: __________', 20, 142)
-    doc.text('SKILLS', 20, 160)
-    doc.line(20, 163, 190, 163)
-    doc.text('1. __________ 2. __________ 3. __________', 20, 172)
-    doc.save(type.toLowerCase() + '-cv-template.pdf')
-  }
+  const templates = [
+    { name: 'ATS Classic', desc: 'Government & NGO roles', file: 'ats-classic.docx', color: 'bg-navy' },
+    { name: 'Modern', desc: 'Banking & private sector', file: 'modern.docx', color: 'bg-accent-green' },
+    { name: 'Executive', desc: 'Director & senior roles', file: 'executive.docx', color: 'bg-blue-500' },
+    { name: 'Graduate', desc: 'Entry-level & fresh grads', file: 'graduate.docx', color: 'bg-purple-500' },
+    { name: 'NGO / MEAL', desc: 'Development sector', file: 'ngo.docx', color: 'bg-amber-500' },
+  ]
   return (
     <div className="space-y-4">
-      <p className="text-sm text-muted-text">Click any template to download free. Edit in Word or Google Docs.</p>
-      <div className="grid grid-cols-2 gap-3">
-        {[{name:'Professional',color:'bg-navy'},{name:'NGO',color:'bg-accent-green'},{name:'Government',color:'bg-blue-500'},{name:'Graduate',color:'bg-purple-500'}].map((t) => (
-          <button key={t.name} onClick={() => downloadCV(t.name)} className="rounded-card border border-border-color p-4 text-center hover:border-accent-green hover:shadow-md transition-all group">
+      <p className="text-sm text-muted-text">5 professional CV templates, free to download. Open and edit in Microsoft Word or Google Docs.</p>
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+        {templates.map((t) => (
+          <a key={t.name} href={`/cv-templates/${t.file}`} download className="rounded-card border border-border-color p-4 text-center hover:border-accent-green hover:shadow-md transition-all group">
             <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 group-hover:scale-110 transition-transform">
               <FileText className="h-5 w-5 text-accent-green" />
             </div>
-            <p className="mt-2 text-sm font-medium text-navy">{t.name} CV</p>
-            <p className="mt-1 text-xs text-accent-green">Click to download free</p>
-          </button>
+            <p className="mt-2 text-sm font-medium text-navy">{t.name}</p>
+            <p className="text-xs text-muted-text">{t.desc}</p>
+            <p className="mt-1 text-xs text-accent-green">Download free</p>
+          </a>
         ))}
       </div>
     </div>

@@ -132,20 +132,24 @@ export default async function HomePage({ searchParams }: PageProps) {
         <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
           <div className="text-center">
             <h1 className="font-display text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl">
-              <span className="block">East Africa&apos;s</span>
-              <span className="block text-accent-green">Opportunity Intelligence Platform</span>
+              <span className="block">Never Miss a Job,</span>
+              <span className="block text-accent-green">Tender or Grant Again</span>
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-white/80">
-              Tenders, NGO jobs, grants and scholarships across Uganda, Kenya, Tanzania, Rwanda and Ethiopia — delivered daily.
+              Get AI-powered job, tender, grant and scholarship alerts across East Africa — delivered daily to your WhatsApp.
             </p>
-            <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <Link href="#opportunities">
-                <Button size="lg" className="bg-accent-green text-white hover:bg-accent-green/90">
-                  Browse Opportunities
+            <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+              <a href="https://wa.me/256748556140?text=HI" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                <Button size="lg" className="w-full bg-[#25D366] text-white hover:bg-[#1ebe5d] text-base font-bold py-6 px-8 shadow-lg">
+                  💬 Start on WhatsApp
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
+              </a>
+              <Link href="#opportunities" className="w-full sm:w-auto">
+                <Button size="lg" variant="outline" className="w-full border-white/30 bg-transparent text-white hover:bg-white/10 py-6">
+                  Browse Opportunities
+                </Button>
               </Link>
-              <a href="https://wa.me/256748556140?text=HI" target="_blank" rel="noopener noreferrer"><Button size="lg" variant="outline" className="border-white/30 bg-transparent text-white hover:bg-white/10">Start on WhatsApp</Button></a>
             </div>
           </div>
         </div>
