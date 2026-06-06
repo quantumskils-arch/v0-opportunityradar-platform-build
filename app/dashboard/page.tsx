@@ -27,7 +27,7 @@ const savedOpportunities = [
   {
     id: 1,
     title: 'Supply of Office Equipment - KCCA',
-    organisation: 'Kampala Capital City Authority',
+    organization: 'Kampala Capital City Authority',
     deadline: '2026-06-15',
     category: 'Government Tender',
     country: 'Uganda',
@@ -35,7 +35,7 @@ const savedOpportunities = [
   {
     id: 2,
     title: 'Program Officer - UNHCR',
-    organisation: 'UNHCR Uganda',
+    organization: 'UNHCR Uganda',
     deadline: '2026-06-10',
     category: 'Job',
     country: 'Uganda',
@@ -203,7 +203,7 @@ export default function DashboardPage() {
                         >
                           <div>
                             <h3 className="font-medium text-navy">{opp.title}</h3>
-                            <p className="mt-1 text-sm text-muted-text">{opp.organisation}</p>
+                            <p className="mt-1 text-sm text-muted-text">{opp.organization}</p>
                             <div className="mt-2 flex items-center gap-3 text-xs text-muted-text">
                               <span className="flex items-center gap-1">
                                 <Clock className="h-3 w-3" />

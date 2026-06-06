@@ -6,7 +6,7 @@ export const API_BASE_URL = 'https://api.opportunityradar.africa'
 export interface Opportunity {
   id: number
   title: string
-  organisation: string
+  organization: string
   deadline: string
   link: string
   category: 'Government Tender' | 'Grant/Scholarship' | 'Job'

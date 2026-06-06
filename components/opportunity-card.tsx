@@ -60,7 +60,7 @@ const deadlineColors: Record<string, string> = {
           <div className="mt-4 space-y-3">
             <div className="flex items-center gap-2 text-sm text-gray-600">
               <Building2 className="h-4 w-4 text-gray-400" />
-              <span className="font-medium text-gray-800">{opportunity.organisation}</span>
+              <span className="font-medium text-gray-800">{opportunity.organization}</span>
             </div>
 
             <div className="flex items-center gap-2 text-sm text-gray-600">
@@ -103,7 +103,7 @@ const deadlineColors: Record<string, string> = {
 
           {/* Apply Button */}
           
-           <a href={opportunity.link} target="_blank" rel="noopener noreferrer" className="flex w-full items-center justify-center gap-2 rounded-xl bg-emerald-500 px-6 py-3 text-sm font-bold text-white transition hover:bg-emerald-600 active:scale-95">
+           <a href={opportunity.url} target="_blank" rel="noopener noreferrer" className="flex w-full items-center justify-center gap-2 rounded-xl bg-emerald-500 px-6 py-3 text-sm font-bold text-white transition hover:bg-emerald-600 active:scale-95">
             Apply Now
             <ExternalLink className="h-4 w-4" />
           </a> 
@@ -149,7 +149,7 @@ export function OpportunityCard({ opportunity, index = 0 }: OpportunityCardProps
         {/* Organization */}
         <div className="mt-3 flex items-center gap-2 text-sm text-muted-text">
           <Building2 className="h-4 w-4" />
-          <span className="line-clamp-1">{opportunity.organisation}</span>
+          <span className="line-clamp-1">{opportunity.organization}</span>
         </div>
 
         {/* Country & Source */}
