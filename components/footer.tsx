@@ -23,6 +23,10 @@ const footerLinks = {
     { href: '/guides', label: 'Blog & Guides' },
     { href: '/alerts', label: 'Email Alerts' },
     { href: '/dashboard', label: 'Dashboard' },
+    { href: '/about', label: 'About Us' },
+    { href: '/contact', label: 'Contact Us' },
+    { href: '/privacy', label: 'Privacy Policy' },
+    { href: '/terms', label: 'Terms of Service' },
   ],
 }
 
@@ -165,7 +169,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="mt-12 border-t border-white/10 pt-8">
           <p className="text-center text-sm text-white/40">
-            &copy; {new Date().getFullYear()} OpportunityRadar. Built for East Africa.
+            &copy; {new Date().getFullYear()} OpportunityRadar. Operated by MARISEN PAGES. Built for East Africa.
           </p>
         </div>
       </div>
