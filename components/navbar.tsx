@@ -24,9 +24,11 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-1">
-            <span className="font-display text-xl font-bold text-white">
-              Opportunity<span className="text-accent-green">Radar</span>
-            </span>
+            <img
+              src="/opportunityradar-logo.png"
+              alt="OpportunityRadar"
+              className="h-8 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
